@@ -645,9 +645,39 @@
 
     .footer-body {
       position: absolute;
-      top: 390%;
+      top: 392%;
       width: 100%;
-      height: 40%;
+      height: 65%;
       background-color: #09234b;
-      z-index: 100;
+      z-index: 10;
+    }
+
+    .footer-logo {
+      display: inline;
+      position: absolute;
+      width: 20%;
+      top: 398%;
+      left: 3%;
+      z-index: 11;
+    }
+
+    .fheader-1 {
+      position: absolute;
+      color: #869135;
+      font-size: 1rem;
+      font-family: Poppins;
+      width: 20%;
+      top: 10%;
+      left: 27%;
+    }
+
+    .fsub-1 {
+      position: absolute;
+      color: #f2f2f2;
+      font-size: 1rem;
+      font-style: italic;
+      font-family: Poppins;
+      width: 20%;
+      top: 28%;
+      left: 27%;
     }
